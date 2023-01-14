@@ -1,0 +1,20 @@
+Once the threat detection tools discover an anomaly, the hypothesis is converted to a trigger. This is when a threat hunter starts the investigation against a system, or specific area of the network which is suspected to be compromised.
+
+
+
+Using Standard Analyst workflow processes found in each tools respective section, identify whether proactive blocks can be done and follow said procedures for blocking. Before doing so, if artifacts are found, determine whether blocking is possible or impactful to the business.
+
+
+
+Please review the following
+	1. Using the available tools under the department, determine whether blocking is possible.
+A.  TTP's cannot be blocked specifically, understanding the specific artifact such as the command(s) use will allow more purposeful protection against TTP's
+
+	2. Whether the artifact detected is being used for a legitimate purpose
+A. Is the IP address detected related to traffic from a known business use case?
+B. Is the email sender a compromised business partner?
+C. Will there be a business impact if we were to block the artifact?
+
+	3. If the items are related to a legitimate business use case, identify whether there are any compensating controls to adjust for the identified risk
+A. If the traffic is related to a suspicious IP, is it possible to block the IP assuming it can failover?
+B. If related to a domain, what is the domain related to? Is a block a showstopper to the business process? Is there a workaround if the block were to occur?
