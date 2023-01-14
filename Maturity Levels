@@ -1,0 +1,10 @@
+• Initial – Level 0
+The organisation is completely reliant on automated tools and does not have manual threat hunting capabilities. They also do not routinely collect data.
+• Minimal – Level 1
+The organisation incorporates threat intelligence and indicators. They have a moderate level of routine data collection.
+• Procedural – Level 2
+The organisation uses human threat hunting as well as automated tools, along with following successful data analysis procedures created by other entities. They have a high level of routine data collection.
+• Innovative – Level 3
+The organisation creates new data analysis procedures and contributes to threat intelligence feeds. They have a very high level of routine data collection.
+• Leading – Level 4
+The organisation has automated the majority of the successful data analysis procedure and has multiple capable threat hunters. They have an extremely high level of routine data collection.
