@@ -1,0 +1,17 @@
+Once threat hunting has been completed post threat hunt findings must be entered into the Threat hunt template. 
+After data is gathered that confirms a malicious activity exists place a proper response mechanism is initiated. Here actions to stop the attack from executing and propagating are taken place, such as removing malware files, isolating the affected systems, restoring the systems to a known secure state, updating firewall and IPS/IDS rules, and installing security patches, fine-tuning security configurations etc.
+
+
+Depending on the actions taken to respond to items found in the threat hunt, you must specify the following
+	• Whether the CIRT team has been notified
+	• The confidence level  (yes or no answer) by which we have eliminated the threat
+	• Whether post hunt process allows for a new alert for future visibility
+	• Any missing technology or technologies necessary for visibility to be possible
+	• Any technical information detected in the threat hunt, include the following below where possible
+A. Types of indicators. When indicating a behavior IOC, include Mitre tactic where possible
+	B. Detection countermeasures used
+	C.  Mitigation countermeasures used (blocked IP in Ittools, Carbon Black policy, Group policy update)
+	
+
+
+Once these new indicators have been processed through the threat hunting lifecycle to automate visibility, they may be integrated into the incident response process without the need to specifically perform a threat hunt for these artifacts. The threat hunting process requires automating as much as possible the hunt mission carried out, so that the team does not waste time running the same mission every X amount of time and can focus their efforts on developing new missions for other techniques that may be being used in the corporate networks.
