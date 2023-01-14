@@ -1,0 +1,30 @@
+Before engaging a threat hunt, the following must be identified as part of the scope.
+
+
+	1. Artifacts, or behavioral artifacts to address a concern or proactively search for an existing threat. 
+A. If malware is part of scope, include banking trojan and the trojan's name
+Example: QBOT banking trojan, RYUK ransomware, etc.
+	B. If an APT is part of scope, APT's target's will summarize motivation for the hunt
+Example: Cozy bear may be targeting industrial systems, and the Information security team will proactively identify indicators of attack from this threat actor.
+	1. Time frame (90 days, custom time frame, etc)
+	2. Environmental scope (are we looking across all zones, including guest wifi, all users, operating systems?)
+a. The scope of artifacts will depending on what the attack can potentially affect. If the system is not vulnerable to an exploit, it should not be included in the scope
+	3. Technology involved (email, file systems, network, etc)
+	
+	
+	
+Examples of Cyber Threat Hunting investigations include:
+		•  Hypothesis Driven Investigations: When significant information of a new, imminent threat vector is discovered, cyber threat hunting will delve deeper into network or system logs in search of hidden anomalies or trends that could signal the new threat. Analytics Driven Investigation: Searches based on information gathered from Machine Learning (ML) and Artificial Intelligence (AI) tools.
+		• Tactics, Techniques, and Procedures (TTP) Investigation: Hunting for attack mannerisms typically use the same operational techniques. This is helpful to source or attribute the threat and to leverage existing remediation methods that worked with these behaviors.
+	
+	
+	Third-Party Sources
+	Third-party providers can help guide hunters to more successful hunts. The following benefits hunters can gather from third-party sources:
+		• Ruling out false positive leads
+		• Focus on interesting leads
+		• IP lookups
+		• Geolocation
+		• Encrypted traffic metadata
+		• Log detection
+		• Attacker technique overlays
+		• Link analysis of internal vs. external or host vs. network data points
